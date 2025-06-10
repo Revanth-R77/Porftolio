@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.profile {
+  margin-top: 4rem;
+  border-radius: 100%;
+}
+.pro {
+  text-decoration-line: underline;
+}
+.starter {
+  background-color: #b6b09f;
+  align-content: center;
+  display: block;
+  align-items: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.summary {
+  width: 40%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 4em;
+}
+.education {
+  list-style: none;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+.portfolio {
+  list-style: none;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+.skills {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 2em;
+  padding-left: 20%;
+  row-gap: 10px;
+  column-gap: 30px;
+  width: 60%;
+  text-align: center;
+}
+.companies {
+  list-style: none;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+.bottom-container {
+  background-color: #b6b09f;
+  padding: 50px 0 50px;
+
+  margin-top: 2em;
+}
+a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 10%;
+}
